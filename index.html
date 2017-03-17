@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>G.R.C</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-fixed-top"> 
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Home</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+                <img src="assets/grcsmall.png">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutps.html">PlayStation</a></li>
+					<li><a href="aboutxbox.html">Xbox</a></li>
+                    <li><a href="aboutpc.html">PC</a></li>
+                <!--dropdown-->
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Game Genres<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="racing.html">Racing</a></li>
+                            <li><a href="fps.html">First Person Shooter</a></li>
+                            <li><a href="platformer.html">Platformer</a></li>
+                            <li><a href="survival.html">Survival</a></li>
+                            <li><a href="puzzle.html">Puzzle</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+ <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    </header>
+<!--jumbotron-->
+	<div class="container">
+		<div class="jumbotron">
+			<h1><img src="assets/grcsmall.png">Welcome to G.R.C</h1>
+			<p>G.R.C stands for 'Games Review Center'. On this website you can find information on PlayStation, Xbox and PC as well as reviews on games categorised by genre.</p>
+			<a href="http://www.twitter.com" target="_blank" class="btn btn-info">Follow G.R.C On Twitter</a>
+		</div>
+	</div>
+	
+<!--grid system-->
+	<div class="container">
+		<div class="row">
+		<!--Article 1-->
+			<div class="col-md-8">
+				<div class="thumbnail">
+				  	<img src="assets/ps4.jpg" alt="Article One">
+				  	<div class="caption">
+						<h3>PlayStation</h3>
+						<p>The PlayStation consoles are created by Sony Interactive Entertainment and have been around from 1994 with the release of the PlayStation (the first console). Since then they have released 3 more consoles, an upgraded version of the most recent one and handheld devices known as the PS Vita. PlayStation have also created an exclusive Virtual Reality (VR) headset that can be bought separately or included with the upgraded model.</p>
+						<p> 
+							<a href="aboutps.html" class="btn btn-primary" role="button">More information</a> 
+						</p>
+				  	</div>
+				</div>
+		<!--Article 2-->
+				<div class="thumbnail">
+				  	<img src="assets/xbox.jpg" alt="Article One">
+				  	<div class="caption">
+						<h3>Xbox</h3>
+						<p>The Xbox consoles were created by Microsoft and started a little late into the console war as the first Xbox was released in 2002 becoming a direct competitor to Sony’s PlayStation 2. Microsoft was well known for their computers giving them a boost when it came to sales for the first console but couldn't get close to the PS2 as Sony had already been well established after the PS1’s success. So far they have released 3 consoles with an extra upgraded version of their most recent one.</p>
+						<p> 
+							<a href="aboutxbox.html" class="btn btn-success" role="button">More information</a> 
+						</p>
+				  	</div>
+				</div>
+		<!--Article 3-->
+				<div class="thumbnail">
+				  	<img src="assets/pcglow.jpg" alt="Article One">
+				  	<div class="caption">
+						<h3>PC Gaming</h3>
+						<p>The best computers made for gaming would come from manufacturers such as Alienware or Omen however as computers aren't all made for gaming (although some are) and anyone can get a game on any make it is better to focus on where to get the games, the software. These are online game sites where you can pay for a game digitally and download it onto your computer. Such sites include: Steam, uPlay and Origin.</p>
+						<p> 
+							<a href="aboutpc.html" class="btn btn-danger" role="button">More Information</a> 
+						</p>
+				  	</div>
+				</div>
+			</div>
+            <div class="col-lg-4">
+                <div class="list-group">
+                    <a href="aboutps.html" class="list-group-item">
+                        <h4 class="list-group-item-header">PlayStation Consoles</h4>
+                        <p>PS3</p>
+                        <p>PS4</p>
+                        <p>PS4 PRO</p>
+                    </a>
+                    <a href="aboutxbox.html" class="list-group-item">
+                        <h4 class="list-group-item-header">Xbox Consoles</h4>
+                        <p>Xbox 360</p>
+                        <p>Xbox ONE</p>
+                        <p>Xbox ONE S</p>
+                    </a>
+                    <a href="aboutpc.html" class="list-group-item">
+                        <h4 class="list-group-item-header">PC Gaming</h4>
+                        <p>Steam</p>
+                        <p>Uplay</p>
+                        <p>Origin</p>
+                    </a>
+                    <a class="list-group-item">
+                        <h4 class="list-group-item-header">Game Genres</h4>
+                    </a>
+                    <a href="racing.html" class="list-group-item">
+                        <h5 class="list-group-item-header">Racing Games</h5>
+                    </a>
+                    <a href="fps.html" class="list-group-item">
+                        <h5 class="list-group-item-header">First Person Shooters</h5>
+                    </a>
+                    <a href="platformer.html" class="list-group-item">
+                        <h5 class="list-group-item-header">Platformers</h5>
+                    </a>
+                    <a href="survival.html" class="list-group-item">
+                        <h5 class="list-group-item-header">Survival Games</h5>
+                    </a>
+                    <a href="puzzle.html" class="list-group-item">
+                        <h5 class="list-group-item-header">Puzzle Games</h5>
+                    </a>
+                </div>
+            </div>
+		</div>
+	</div>
+	
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+            <a class="navbar-btn btn btn-info pull-right" target="_blank" href="https://twitter.com/">Twitter</a>
+            <a class="navbar-btn btn btn-primary pull-right" target="_blank" href="https://facebook.com">Facebook</a>
+            <a class="navbar-btn btn btn-danger pull-right" target="_blank" href="https://www.youtube.com">YouTube</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+</body>
+</html>

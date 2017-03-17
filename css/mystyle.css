@@ -1,0 +1,20 @@
+body {
+	padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+/*about CSS mod*/
+.page-header{
+    margin-top: 0;
+}
+
+.panel-body {
+    padding-bottom: 0;
+}
+
+.panel-body {
+    padding-top: 0;
+}
+.featuredImg {
+    padding-bottom: 15px;
+}

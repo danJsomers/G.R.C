@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About the PC system</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">About the PC system</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+                <img src="assets/grcsmall.png">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutps.html">PlayStation</a></li>
+					<li><a href="aboutxbox.html">Xbox</a></li>
+                    <li><a href="aboutpc.html">PC</a></li>
+                <!--dropdown-->
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Game Genres<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="racing.html">Racing</a></li>
+                            <li><a href="fps.html">First Person Shooter</a></li>
+                            <li><a href="platformer.html">Platformer</a></li>
+                            <li><a href="survival.html">Survival</a></li>
+                            <li><a href="puzzle.html">Puzzle</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+    <!--about content-->
+    <div class="container">
+    <img src="assets/computer_gaming.jpg" class="featuredImg" width="25%"/>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="panel-header">
+                            <h2>About PC Gaming</h2>
+                        </div>
+                        <h3>Steam</h3>
+                        <img src="assets/steam_logo.png" class="featuredImg" width="50%"/>
+                        <p>Steam is a digital distribution platform developed by Valve Corporation. Steam provides a wide range of games for the user to buy, from AAA games to games by independent developers and even some games that are free to play! People can play with friends or others online through Steam as well as trade items, create community items and levels via the Steam Workshop.</p>
+                        <h3>uPlay</h3>
+    <p><img src="assets/uplay_logo.png" class="featuredImg" width="50%"/></p>                    
+                        
+<p>uPlay is a digital distribution, digital rights management, multiplayer and communications service developed by Ubisoft Entertainment. The service is provided across various platforms (PC, PlayStation 4, Xbox One, Wii U, PlayStation 3, Xbox 360, Facebook, iOS, Android, Windows Phone, OnLive) but is mainly used through PC.</p>
+                        <h3>Origin</h3>
+                        <p><img src="assets/origin.png" class="featuredImg" width="50%"/></p>
+                        <p>Origin is an online gaming, digital distribution and digital rights management platform developed by Electronic Arts (EA) that allows users to purchase games on the internet for PC and mobile platforms. The Origin store allows users to browse and purchase games for full price from Electronic Arts' catalogs. Instead of receiving a box, disc, or even CD key, purchased software is immediately attached to the user's Origin account.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+            <a class="navbar-btn btn btn-info pull-right" target="_blank" href="https://twitter.com/">Twitter</a>
+            <a class="navbar-btn btn btn-primary pull-right" target="_blank" href="https://facebook.com">Facebook</a>
+            <a class="navbar-btn btn btn-danger pull-right" target="_blank" href="https://www.youtube.com">YouTube</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" type="submit">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
